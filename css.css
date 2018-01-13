@@ -6,39 +6,80 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
 
-
 html{
-  background: linear-gradient(to bottom, #1E1E1E,#000000);
+  background-color: #000000;
   height: 100%;
+  width: 100%;
 }
 
-
-.obsah{
-    margin-left: 8px;
-    margin-right: 8px;
-    background-color: #1E1E1E;
-    margin-top: -32px;
-    padding-top: 1px;
-    padding-bottom: 15px;
-    width: 100%;
-    width: -moz-available;   
-    width: -webkit-fill-available; 
-    height: 100%;
-    height: -moz-available;   
-    height: -webkit-fill-available; 
-  }
-
-html>*{
-font-family: customFont;
-color: white;
+*{
+  font-family: customFont, Arial;
+  color: white;
 }
+
+.footer {
+  background-color: #2C2C2C;
+}
+
+.footer, .obsah:after {
+  height: 50px; 
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.obsah:after {
+  content: "";
+  display: block;
+}
+
+body
+{
+  height: 98%;
+}
+
+.side
+{
+  right: 0;
+  background-color: #2C2C2C;
+  position: absolute;
+  margin-right: 16px;
+  height: calc(100% - 13.5em);
+  margin-bottom: -50px;
+}
+
+.obsah
+{
+  height: 100%;
+  margin-bottom: -50px;
+  margin-left: 8px;
+  margin-right: 8px;
+  background-color: #1E1E1E;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
 
 a[alt="dolny-bar-link"]{
-text-decoration: none;
-color: white;
-transition: color .4s;
-font-size: 150%;
-margin-right: 3px;
+  text-decoration: none; 
+  color: white;
+  transition: color .4s;
+  font-size: 150%;
+  margin-right: 3px;
+}
+
+a[href="http://www.reliablecounter.com/zh/"]{
+  visibility: hidden;
+  font-size: 0px !important;
+  margin-top: -6px;
+  display: block;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+  margin-bottom: -2px;
+  margin-top: 8px;
 }
 
 a[alt="dolny-bar-link"]:hover{
