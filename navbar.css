@@ -42,15 +42,6 @@ font-family: customFont,Arial ;
 
 
 
-a[alt="horny-bar-link"]{
-text-decoration: none;
-color: white;
-transition: .4s;
-font-size: 150%;
-margin-left: 4px;
-margin-right: 4px;
-}
-
 
 
 a[alt="horny-bar-link"]:hover{
@@ -59,4 +50,22 @@ color: #569cd6;
 font-size: 250%;
 margin-left: 12px;
 margin-right: 12px;
+}
+
+a[alt="horny-bar-link"]:active{
+text-decoration: none;
+color: #b0dafc;
+transition: .1s;
+font-size: 150%;
+margin-left: 4px;
+margin-right: 4px;
+}
+
+a[alt="horny-bar-link"]{
+text-decoration: none;
+color: white;
+transition: .4s;
+font-size: 150%;
+margin-left: 4px;
+margin-right: 4px;
 }
