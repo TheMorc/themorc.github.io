@@ -51,15 +51,16 @@ body
   position: absolute;
   margin-right: 16px;
   height: calc(100% - 13.5em);	
-  width: 40vw;
+  width: 20vw;
   margin-bottom: -100px;
   border-top-left-radius: 15px; 
+  overflow-y: auto;
 }
 
 .obsahStranky
 {
     margin-left: 32px;	
-    margin-right: 40vw;
+    margin-right: 20vw;
 }
 
 .obsah
