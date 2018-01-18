@@ -50,14 +50,16 @@ body
   background-color: #2C2C2C;
   position: absolute;
   margin-right: 16px;
-  height: calc(100% - 13.5em);
+  height: calc(100% - 13.5em);	
+  width: 40vw;
   margin-bottom: -100px;
   border-top-left-radius: 15px; 
 }
 
 .obsahStranky
 {
-	margin-left: 32px;
+    margin-left: 32px;	
+    margin-right: 40vw;
 }
 
 .obsah
