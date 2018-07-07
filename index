@@ -22,7 +22,7 @@
 
 <body>
 	<div class="obsah">
-		<iframe src="navbar.html" frameBorder="0" style="width: 100%;" scrolling="no" >
+		<iframe src="navbar" frameBorder="0" style="width: 100%;" scrolling="no" >
 			oof!
 		</iframe>
 		<div class="side">
@@ -44,7 +44,7 @@
 			Hello! I am back with better site! + I didn't dithched MDL(like <a href="https://tttie.github.io/#/">TTtie</a>) because i didn't used MDL on my site. 😁
 		</div>
 	</div>
-	<iframe src="footer.html" class="footer" style="width: calc(100% - 16px);display: block;left: 8px;overflow-y: hidden;" scrolling="no" frameborder="0">
+	<iframe src="footer" class="footer" style="width: calc(100% - 16px);display: block;left: 8px;overflow-y: hidden;" scrolling="no" frameborder="0">
 			oof!
 	</iframe>
 </body>
